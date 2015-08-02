@@ -24,4 +24,11 @@ public class StringUtilsTest {
     assertFalse(su.checkIfEmptyOrNull("hello"));
   }
 
+  @Test
+  public void testFail() {
+      fail("faile");
+      // final StringUtils su = new StringUtils();
+      //assertFalse(su.checkIfEmptyOrNull("hello"));
+  }
+
 }
