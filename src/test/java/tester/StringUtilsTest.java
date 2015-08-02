@@ -26,9 +26,8 @@ public class StringUtilsTest {
 
   @Test
   public void testFail() {
-      fail("faile");
-      // final StringUtils su = new StringUtils();
-      //assertFalse(su.checkIfEmptyOrNull("hello"));
+     final StringUtils su = new StringUtils();
+     assertFalse(su.checkIfEmptyOrNull("hello"));
   }
 
 }
